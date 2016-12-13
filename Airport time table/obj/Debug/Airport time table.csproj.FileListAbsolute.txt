@@ -1,0 +1,5 @@
+c:\users\ольга\documents\visual studio 2015\Projects\Airport time table\Airport time table\bin\Debug\Airport time table.exe.config
+c:\users\ольга\documents\visual studio 2015\Projects\Airport time table\Airport time table\bin\Debug\Airport time table.exe
+c:\users\ольга\documents\visual studio 2015\Projects\Airport time table\Airport time table\bin\Debug\Airport time table.pdb
+c:\users\ольга\documents\visual studio 2015\Projects\Airport time table\Airport time table\obj\Debug\Airport time table.exe
+c:\users\ольга\documents\visual studio 2015\Projects\Airport time table\Airport time table\obj\Debug\Airport time table.pdb
