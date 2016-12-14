@@ -29,177 +29,164 @@ namespace Airport
             private static string emergencyInf = "Acol' beseder";
 
             private static List<Flight> flightCollection = new List<Flight>()
-                {
+            {
                 new Flight()
-                    {
-                        Airline = "Pegasus Airlines",
-                        FlightNumber = "PC4751",
-                        DepartureAirport = "Kharkov",
-                        ArrivalAirport = "Istanbul Sabiha",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 3, 40 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 4, 40 , 00 )
-                    },
-
-                    new Flight()
-                    {
-                        Airline = "Belavia",
-                        FlightNumber = "B2 836",
-                        DepartureAirport = "Kharkov",
-                        ArrivalAirport = "Minsk",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 5, 00 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 7, 00 , 00 )
-
-                    },
-                   new Flight()
-                    {
-                        Airline = "Ukr International Airlines",
-                        FlightNumber = "PS 024",
-                        DepartureAirport = "Kharkov",
-                        ArrivalAirport = "Kyiv Boryspil",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 7, 05 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 8, 05 , 00 )
-                    },
-
-                    new Flight()
-                    {
-                        Airline = "LOT Polish Airlines",
-                        FlightNumber = "LO 762",
-                        DepartureAirport = "Kharkov",
-                        ArrivalAirport = "Warsaw",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 18, 00 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 20, 00 , 00 )
-
-                    },
-                   new Flight()
-                    {
-                        Airline = "Ukr International Airlines",
-                        FlightNumber = "PS 793",
-                        DepartureAirport = "Kharkov",
-                        ArrivalAirport = "Tel Aviv",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 21, 20 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 23, 50 , 00 )
-
-                    },
-                   new Flight()
-                    {
-                        Airline = "Belavia",
-                        FlightNumber = "B2 836",
-                        DepartureAirport = "Kharkov",
-                        ArrivalAirport = "Minsk",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 08, 5, 00 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 08, 7, 00 , 00 )
-                    },
-
-                    new Flight()
-                    {
-                        Airline = "Pegasus Airlines",
-                        FlightNumber = "PC 750",
-                        DepartureAirport = "Istanbul Sabiha",
-                        ArrivalAirport = "Kharkov",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 1, 20 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 1, 50 , 00 )
-                    },
-
-                     new Flight()
-                    {
-                        Airline = "Ukr International Airlines",
-                        FlightNumber = "PS 502",
-                        DepartureAirport = "Kutaisi",
-                        ArrivalAirport = "Kharkov",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 4, 00 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 4, 30 , 00 )
-                    },
-
-                      new Flight()
-                    {
-                        Airline = "Ukr International Airlines",
-                        FlightNumber = "PS 025",
-                        DepartureAirport = "Kyiv Boryspil",
-                        ArrivalAirport = "Kharkov",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 16, 50 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 17, 50 , 00 )
-                    },
-
-                      new Flight()
-                    {
-                        Airline = "LOT Polish Airlines",
-                        FlightNumber = "LO 761",
-                        DepartureAirport = "Warsaw",
-                        ArrivalAirport = "Kharkov",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 17, 20 , 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 07, 19, 50 , 00 )
-                    },
-
-                      new Flight()
-                    {
-                        Airline = "Belavia",
-                        FlightNumber = "B2 835",
-                        DepartureAirport = "Minsk",
-                        ArrivalAirport = "Kharkov",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 07, 23, 15, 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 08, 01, 30 , 00 )
-                    },
-
-                      new Flight()
-                    {
-                        Airline = "Ukr International Airlines",
-                        FlightNumber = "PS 794",
-                        DepartureAirport = "Tel Aviv",
-                        ArrivalAirport = "Kharkov",
-                        DepatureTerminal = "1",
-                        ArrivalTerminal = "1",
-                        Status = Status.DepartedAt,
-                        Gate = "2A",
-                        ArrivalTime = new DateTime( 2016, 12, 08, 04, 45, 00 ),
-                        DepartureTime = new DateTime( 2016, 12, 08, 07, 30 , 00 )
-                    },
-
-
-                    };
+                {
+                    Airline = "Pegasus Airlines",
+                    FlightNumber = "PC4751",
+                    DepartureAirport = "Kharkov",
+                    ArrivalAirport = "Istanbul Sabiha",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 3, 40 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 4, 40 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Belavia",
+                    FlightNumber = "B2 836",
+                    DepartureAirport = "Kharkov",
+                    ArrivalAirport = "Minsk",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 5, 00 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 7, 00 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Ukr International Airlines",
+                    FlightNumber = "PS 024",
+                    DepartureAirport = "Kharkov",
+                    ArrivalAirport = "Kyiv Boryspil",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 7, 05 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 8, 05 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "LOT Polish Airlines",
+                    FlightNumber = "LO 762",
+                    DepartureAirport = "Kharkov",
+                    ArrivalAirport = "Warsaw",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 18, 00 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 20, 00 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Ukr International Airlines",
+                    FlightNumber = "PS 793",
+                    DepartureAirport = "Kharkov",
+                    ArrivalAirport = "Tel Aviv",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 21, 20 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 23, 50 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Belavia",
+                    FlightNumber = "B2 836",
+                    DepartureAirport = "Kharkov",
+                    ArrivalAirport = "Minsk",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 08, 5, 00 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 08, 7, 00 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Pegasus Airlines",
+                    FlightNumber = "PC 750",
+                    DepartureAirport = "Istanbul Sabiha",
+                    ArrivalAirport = "Kharkov",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 1, 20 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 1, 50 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Ukr International Airlines",
+                    FlightNumber = "PS 502",
+                    DepartureAirport = "Kutaisi",
+                    ArrivalAirport = "Kharkov",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 4, 00 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 4, 30 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Ukr International Airlines",
+                    FlightNumber = "PS 025",
+                    DepartureAirport = "Kyiv Boryspil",
+                    ArrivalAirport = "Kharkov",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 16, 50 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 17, 50 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "LOT Polish Airlines",
+                    FlightNumber = "LO 761",
+                    DepartureAirport = "Warsaw",
+                    ArrivalAirport = "Kharkov",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 17, 20 , 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 07, 19, 50 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Belavia",
+                    FlightNumber = "B2 835",
+                    DepartureAirport = "Minsk",
+                    ArrivalAirport = "Kharkov",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 07, 23, 15, 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 08, 01, 30 , 00 )
+                },
+                new Flight()
+                {
+                    Airline = "Ukr International Airlines",
+                    FlightNumber = "PS 794",
+                    DepartureAirport = "Tel Aviv",
+                    ArrivalAirport = "Kharkov",
+                    DepatureTerminal = "1",
+                    ArrivalTerminal = "1",
+                    Status = Status.DepartedAt,
+                    Gate = "2A",
+                    ArrivalTime = new DateTime( 2016, 12, 08, 04, 45, 00 ),
+                    DepartureTime = new DateTime( 2016, 12, 08, 07, 30 , 00 )
+                },
+            };
             #endregion
             static readonly string currentAirportName = "Kharkov";
             static readonly String format = "[MM/dd hh:mm]";
